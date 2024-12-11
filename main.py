@@ -1,6 +1,7 @@
 import os
+import socket
+import asyncio
 import tkinter as tk
-import dearpygui as dpg
 
 
 def main(argv):
@@ -8,7 +9,8 @@ def main(argv):
 
     #TODO: Format ech file with pandas
 
-    #TODO: start up gui 
+    #TODO: start up socket 
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     raise NotImplementedError
     
