@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/chezr/OneDrive/Documents/personal_projects/Visualizer/src/Visualizer/Visualizer.csproj": {}
+    "C:\\Users\\chezr\\OneDrive\\Documents\\personal_projects\\Visualizer\\src\\Visualizer\\Visualizer.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/chezr/OneDrive/Documents/personal_projects/Visualizer/src/Visualizer/Visualizer.csproj": {
+    "C:\\Users\\chezr\\OneDrive\\Documents\\personal_projects\\Visualizer\\src\\Visualizer\\Visualizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/chezr/OneDrive/Documents/personal_projects/Visualizer/src/Visualizer/Visualizer.csproj",
+        "projectUniqueName": "C:\\Users\\chezr\\OneDrive\\Documents\\personal_projects\\Visualizer\\src\\Visualizer\\Visualizer.csproj",
         "projectName": "Visualizer",
-        "projectPath": "/mnt/c/Users/chezr/OneDrive/Documents/personal_projects/Visualizer/src/Visualizer/Visualizer.csproj",
-        "packagesPath": "/home/crcorpuz/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/chezr/OneDrive/Documents/personal_projects/Visualizer/src/Visualizer/obj/",
+        "projectPath": "C:\\Users\\chezr\\OneDrive\\Documents\\personal_projects\\Visualizer\\src\\Visualizer\\Visualizer.csproj",
+        "packagesPath": "C:\\Users\\chezr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chezr\\OneDrive\\Documents\\personal_projects\\Visualizer\\src\\Visualizer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/crcorpuz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\chezr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -74,12 +80,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
